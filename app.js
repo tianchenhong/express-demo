@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('啦啦的天天')
+  res.send('是否检查更新')
 })
 
 app.get('/lalala', function (req, res) {
